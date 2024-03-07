@@ -1,0 +1,28 @@
+{
+  "name": "Idiomas - Coffe Tag",
+  "description": "A simples extension for chossing form different languages...",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "./images/uk.png",
+      "32": "./images/uk.png",
+      "46": "./images/uk.png",
+      "128": "./images/uk.png"
+    }
+  },
+
+  "icons": {
+    "16": "./images/uk.png",
+    "32": "./images/uk.png",
+    "46": "./images/uk.png",
+    "128": "./images/uk.png"
+  },
+
+  "permissions": ["storage"]
+}
